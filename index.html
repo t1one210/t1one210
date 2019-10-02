@@ -1,0 +1,230 @@
+<!DOCTYPE HTML> 
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="crossorigin="anonymous"></script>
+		<script src="/owlcarousel/owl.carousel.min.js"></script>
+		<script src="/js/script.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,600&amp;subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/owlcarousel/owl.carousel.min.css">
+		<title>Где рыба</title>
+	</head>
+	<body>
+<?
+function words($int, $expressions){
+    settype($int, "integer");
+    $count = $int % 100;
+    if ($count >= 5 && $count <= 20){
+        $result = $expressions['2'];
+    }else{
+        $count = $count % 10;
+        if ($count == 1){
+            $result = $expressions['0'];
+        }elseif ($count >= 2 && $count <= 4){
+            $result = $expressions['1'];
+        }else{
+            $result = $expressions['2'];
+        }
+    }
+    return $result;
+}
+$i = 586;
+echo $i . ' ' . words($i, array('день', 'дня', 'дней'));
+
+$a = 1;
+if ($a != 1)
+	echo ' verno';
+
+else echo ' neverno';
+?>
+		<div class="top flexcontainer">
+		
+			<div class="menu">
+					<a href="#" class="png"></a>
+			</div>
+				<div id="podmenu">
+					<ul>
+						<li><a href="#">Вход/регистрация<br></a></li>
+						<li><a href="#">Города-Регионы<br></a></li>
+						<li><a href="#">ОБЩЕНИЕ:</a></li>
+						<li><a href="#">Чат</a></li>
+						<li><a href="#">Форум</a></li>
+						<li><a href="#">Диалоги</a></li>
+						<li><a href="#">Друзья</a></li>
+						<li><a href="#">Фотоотчеты</a></li>
+						<li><a href="#">Ролики</a></li>
+						<li><a href="#">Фильмы</a></li>
+					</ul>
+				</div>
+			
+			<div class="selected">
+				<a href="/" class="logo">GDE-RYBA<sup><span>RU</span></sup></a>
+			</div>
+				<div class="search1"><input type="search" class="input" placeholder="Поиск">
+					<i class="fa fa-search" aria-hidden="true"></i>
+				</div>
+			</div>
+			
+		
+		<div class="wave"></div>
+		
+		<div class="top-slider">
+		
+			<div class="owl-carousel">
+				<div class="item slidetext"> <h4>Все самое<br> полезное<br> для рыбака</h4></div>
+				<div class="item slidetext"> <h4>Все самое<br> полезное<br> для рыбака</h4></div>
+			</div>
+		</div>
+		
+		<div class="flexcontainer">
+			<div class="icon"></div>
+				<div class="nav">
+				<h3>Карта рыбных мест</h3><br>
+				<h3>Форум рыбаков</h3><br>
+				<h3>Видео</h3><br>
+				<h3>Базы отдыха</h3><br>
+				<h3>Магазин</h3><br>
+				<h3>Платные водоемы</h3><br>
+				<h3>Рецепты</h3><br>
+				<h3>Трофеи</h3><br>
+				<h3>Рыбак рыбаку</h3><br>
+			</div>
+		</div>
+		<hr>
+		
+		<div class="wrapper">
+			<div class="text1"><p><b>Здесь вы найдете все, что
+			интересно и полезно знать любителям рыбалки, туризма, охоты, 
+			и активного отдыха 
+			в Санкт-Петербурге и Ленинградсткой области.</b></p></div>
+			<div class="text2">Множество полезной информации от профессиональных
+			рыболовов, секреты богатого улова и клевых мест. На нашем сайте
+			вы сможете найти компаньона для совместных поездок на рыбалку
+			и новых друзей. В дальнейшем мы создадим удобный рыболовный форум
+			для общения и обмена опытом.</div>
+		</div>
+		
+		<div class="wrapper">
+			<div class="title-line">Карта рыбных мест</div>
+            <div class="mapim"><img scr="/img/mapim.jpg"></div>
+		</div>
+		
+		
+		<br>
+		<div class="wrapper">
+			<div class="title-line">Интересные статьи</div>
+		</div>
+		
+		<div class="wrapper">
+			<div class="artic"><img src="/img/articles.jpg"></div>
+			<div class="date flexcontainer">21.05.2018
+			<div class="message">
+				<font>11</font><i class="fa fa-eye" aria-hidden="true"></i>
+				<font>2</font><i class="fa fa-commenting-o" aria-hidden="true"></i>
+			</div>
+			</div>
+		</div>
+		
+		<div class="wrapper">
+			<div class="overview1">Оборудование и устройства для стоянок</div>
+			<div class="equipArt"><img src="/img/equip.jpg"></div>
+			<div class="date flexcontainer">21.05.2018
+			<div class="message">
+				<font>45</font><i class="fa fa-eye" aria-hidden="true"></i>
+				<font>8</font><i class="fa fa-commenting-o" aria-hidden="true"></i>
+			</div>
+			</div>
+		
+		
+			<div class="overview1">Обзор удилища Sportex Exclusive Medium Feeder</div>
+		
+		
+			<div class="title-line">Видео</div>
+			
+			<div class="video"><img src="/img/video1.jpg" align="Left"> 
+				<div class="font2">Kosadaka Ion XS 110F – с
+				него стоит начать!</div>
+			</div>	
+				
+			<div class="video"><img src="/img/video2.jpg" align="Left">
+				<div class="font2">Рыбалка в черте Санкт-Петербурга
+				на городских прудах
+				</div>
+			</div>
+			
+			<div class="video"><img src="/img/video3.jpg" align="Left">
+				<div class="font2">Рыбалка в <q>Лепсари</q>:
+				платная рыбалка и отдых</div>
+			</div>
+		</div>
+			
+		<div class="wrapper">	
+		
+			<div class="title-line">Последние</div>
+			<div class="overview1">сообщения</div>
+			
+			<div class="video"><img src="/img/mes1.jpg" align="Left"> 
+				<div class="lastm">
+				<b>Mike216</b> 21.05.2018</div>
+				<div class="font5">
+					Лодки и моторы для рыбалки
+				</div>
+			</div>
+			
+			<div class="video"><img src="/img/mes2.jpg" align="Left">
+				<div class="lastm"><b>admin</b> 21.05.2018</div>
+				<div class="font5">Правда, думаю, куда
+					выложить, сюда или в тему "Своими руками".
+					Ну, в общем, так...</div>
+			</div>
+			
+			<div class="video"><img src="/img/mes3.jpg" align="Left"> 
+				<div class="lastm"><b>Rybolov</b> 21.05.2018</div>
+				<div class="font5">Защита от комаров и
+				мошек на рыбалке</div>
+			</div>
+			
+			<div class="video"><img src="/img/mes4.jpg" align="Left">
+				<div class="lastm"><b>AlexeyM</b> 21.05.2018</div>
+				<div class="font5">Ездил как то раз в
+				Астраханскую обл. в район поселка "ЦАГАН-АМАН".
+				Вот там, чтобы попасть...</div>
+			</div>
+			
+			<div class="title-line">Фотоотчеты</div><br>
+			
+			
+			<div class="imag flexcontainer"><img src="/img/freports1.jpg" align="Left"> 
+				<img src="/img/freports2.jpg" align="right"></div>
+			<div class="flexcontainer">
+				<div class="font1">Переправка через р.Волгу</div>				
+				<div class="font1"> Оредеж, крупный окунь</div>
+			</div>
+			
+				
+			<div class="title-line">Свежие новости</div>
+			
+			<div class="imag flexcontainer"><img src="/img/freshn1.jpg" align="Left"> 
+				<div class="font1">Весенняя джиговая щука, или Как 
+				рушатся стереотипы</div>
+			</div>
+			
+			<div class="imag flexcontainer"><img src="/img/freshn2.jpg" align="Left">
+				<div class="font1">Последняя рыбалка
+				зимы</div>
+			</div>
+			
+		</div>
+		
+		<div class="bot flexcontainer">
+			<div class="info">Напишите нам:<br>
+			
+			<a href="#">info@gde-ryba.ru</a></div>
+			<div class="info2"><a href="#">gde-ryba.ru, 2018</a></div>
+		</div>
+		<div class="bot2 info3">Разработано в компании <q><a href="#">Две зебры</a></q></div>
+	</body>
+</html>

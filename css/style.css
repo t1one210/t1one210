@@ -18,7 +18,7 @@ h3{
 }
 
 .icon{
-	//background: url("img/icons.png") no-repeat;
+	background: url("img/icons.png") no-repeat;
 	padding-left: 37px;
 }	
 
@@ -39,7 +39,7 @@ h3{
 
 .wave{
 	height: 6px;
-	//background: url("img/wave.png");
+	background: url("img/wave.png");
 	margin: auto;
 	z-index: 2;
 	position: relative;

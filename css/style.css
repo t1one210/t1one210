@@ -18,7 +18,7 @@ h3{
 }
 
 .icon{
-	background: url("/img/icons.png") no-repeat;
+	background: url("img/icons.png") no-repeat;
 	padding-left: 37px;
 }	
 
@@ -39,7 +39,7 @@ h3{
 
 .wave{
 	height: 6px;
-	background: url("/img/wave.png");
+	background: url("img/wave.png");
 	margin: auto;
 	z-index: 2;
 	position: relative;
@@ -133,7 +133,7 @@ input::placeholder {
 }
 
 .item{
-	background: url("/img/dk.jpg") no-repeat;
+	background: url("img/dk.jpg") no-repeat;
 	background-size: cover;
 	height: 100%;
     weight: 100%;
@@ -149,7 +149,7 @@ input::placeholder {
 }
 
 .open1{
-	background: url("/img/open.png") no-repeat;	
+	background: url("img/open.png") no-repeat;	
 	width: 13px;
 	height: 15px;
 	padding-top: 5px;
@@ -157,13 +157,13 @@ input::placeholder {
 
 .png{
 	display:block;
-	background: url("/img/menu1.png");
+	background: url("img/menu1.png");
 	width:35px;
 	height:23px;
 }
 
 .open{
-	background: url("/img/exit.png") no-repeat;	
+	background: url("img/exit.png") no-repeat;	
 }
 
 .text1{
@@ -377,7 +377,7 @@ font{
 }
 
 .mapim{
-	background: url("/img/mapim.jpg") no-repeat center;
+	background: url("img/mapim.jpg") no-repeat center;
 	object-fit: cover;
 	height: 447px;
     width: 100%;

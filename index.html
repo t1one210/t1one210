@@ -13,6 +13,14 @@
 		<title>Где рыба</title>
 	</head>
 	<body>
+	<form action="integration.php" method="post">
+	Тема: <input type="text" name="" value="tema" /><br />
+	Ваша компания: <input type="text" name="companyname" value="" /><br />
+	Имя: <input type="text" name="name" value="" /><br />
+	Фамилия: <input type="text" name="lastname" value="" /><br />
+	Ваше сообщение: <textarea name="message"></textarea><br />
+	<input type="submit" value="Отправить" />
+</form>
 <!--<?
 function words($int, $expressions){
     settype($int, "integer");
@@ -227,12 +235,4 @@ else echo ' neverno';
 		</div>
 		<div class="bot2 info3">Разработано в компании <q><a href="#">Две зебры</a></q></div>
 		
-<form action="rest.php" method="post">
-	Тема: <input type="text" name="" value="tema" /><br />
-	Ваша компания: <input type="text" name="companyname" value="" /><br />
-	Имя: <input type="text" name="name" value="" /><br />
-	Фамилия: <input type="text" name="lastname" value="" /><br />
-	Ваше сообщение: <textarea name="message"></textarea><br />
-	<input type="submit" value="Отправить" />
-</form>
 </html>
